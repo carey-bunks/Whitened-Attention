@@ -1,6 +1,6 @@
 # Whitened Self-Attention (WSA)
 
-This repository contains an implementation of Whitened Self-Attention (WSA), a theoretically motivated enhancement for Transformer architectures that accounts for inter-token correlations.
+This repository contains two implementations of Whitened Self-Attention (WSA), a theoretically motivated enhancement for Transformer architectures that accounts for inter-token correlations.  The first implementation is based on the block tridiagonal approximation to the autocovariance matrix, and the second is block pentadiagonal.  For comparisons, there is also a separate standard attention implementation (no whitening).
 
 ## Overview
 
