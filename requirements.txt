@@ -1,0 +1,8 @@
+# Core Machine Learning Framework
+torch>=2.0.0
+
+# Numerical and Data Processing
+numpy
+
+# Visualization
+matplotlib
