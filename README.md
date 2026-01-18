@@ -2,6 +2,9 @@
 
 This repository contains two implementations of Whitened Self-Attention (WSA), a theoretically motivated enhancement for Transformer architectures that accounts for inter-token correlations.  The first implementation is based on the block tridiagonal approximation to the autocovariance matrix, and the second is block pentadiagonal.  For comparisons, there is also a separate standard attention implementation (no whitening).
 
+This code is based on the following paper:
+Whitened Self-Attention Anonymous authors Under review as a conference paper at ICLR 2026 Read the full paper on [OpenReview](https://openreview.net/pdf?id=XQ0VTUIhEJ)
+
 ## Overview
 
 Standard self-attention treats context vectors as mutually independent, which introduces information duplication when tokens are correlated. Whitened Self-Attention (WSA) addresses this by applying a computationally feasible whitening filter that decorrelates input sequences, producing an optimal, minimum variance estimator.
